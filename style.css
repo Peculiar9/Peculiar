@@ -258,7 +258,6 @@ p{
     #menuBtn{
         
             position: fixed;
-            width: 30px;
             top: 35px;
             right: 65px;
             cursor: pointer;
