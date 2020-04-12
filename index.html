@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Peculiar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        <link rel="icon" href="images/Dev.jpg">
+    </head>
+    <body>
+        <section id="header">
+            <div class="container">
+                <img src="Images/dev.jpg" alt="Peculiar" class="logo">
+                <div class="header-text">
+                    <h1> I am Babalola Peculiar</span></h1>
+                    <span class="square"></span>
+                    <p class="texts">Dotnet Developer | UI Designer | Web-Dev | Mobile-Dev | Tech Enthusiast</p>
+                       <a data-scroll href="#contact"><button class="common-button">Explore</button></a> 
+                        <div class="line">
+                            <span class="line-1"></span><br>
+                            <span class="line-2"></span><br>
+                            <span class="line-3"></span>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <nav id="sideNav">
+            <ul><a href="#">HOME</a></ul>
+            <ul><a href="https://github.com/Peculiar9">PROJECTS</a></ul>
+            <ul><a href="#">CONTACT ME</a></ul> 
+        </nav>
+        <img src="Images/menu.png" alt="menu" id="menuBtn" >
+       <section id="contact">
+           <div class="social-media">
+            <h3 class="contact">Contact me</h3>
+            <div class="social-icons">
+            <a href="https://github.com/Peculiar9"><img src="images/github.png" alt="github"></a>
+            <a href="https://www.instagram.com/peculiarbabalola/"><img src="images/instagram.png" alt="instagram"></a>
+            <a href="https://www.linkedin.com/in/peculiar-babalola-697226143/"><img src="images/linkedin.png" alt="linkedin"></a>
+            <a href="https://twitter.com/Peculiar12th"><img src="images/twitter.png" alt="twitter"></a>  
+            </div>
+        </div> 
+     </section>
+        
+        <div class="btn">
+        <button id="dropdown-btn"> Hire Me <span> >></span></button>
+        <div id="content">
+            <a href="#">Download CV <span><img src="images/download.png" alt=""></span></a>|
+            <a href="peculiarbabalola@gmail.com">Mail me</a>
+        </div>
+        </div>
+
+        <div id="ui-projs">
+            <h2>UI Projects</h2>
+            <h4>Dashboard</h4>
+            <p>Figma</p>
+            <a href="https://www.figma.com/file/N5bYZW8WQCTaux5CONykzEzc/work"><img src="images/frame.png" alt=""></a>
+            <h4>Mobile app</h4>
+            <p>Figma</p>
+            <a href="https://www.figma.com/file/QMuRCwYeCRFJqnpkLUcohR/F-p"><img src="images/mobapp.png" alt=""></a>
+
+            <a data-scroll="" href="#contact"><h3>And Lots more...</h3></a>
+        </div>
+    </body>
+              <p>            Copyright Peculiar 2020</p> 
+<script>
+    let menuBtn = document.getElementById("menuBtn");
+    let sideNav = document.getElementById("sideNav");
+    let cntbtn = document.getElementById("dropdown-btn");
+    let content = document.getElementById("content");
+    menuBtn.onclick = function() {
+        if (sideNav.style.right == "-250px") {
+            sideNav.style.right = "0px";
+        } else {
+            sideNav.style.right = "-250px";
+        }
+    } 
+    cntbtn.onclick = function() {
+        if (content.style.display == "none") {
+            content.style.display = "inline-block";
+        } else {
+            content.style.display = "none";
+        }
+    } 
+    
+</script>
+<script>
+
+<<<<<<< HEAD:index.html
+    var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 2000
+});
+</script>
+</html>
+=======
+</html>
+>>>>>>> 05b6894e74f7ff2a22e3cc65f901d4104b15e2a0:index.md
