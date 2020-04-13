@@ -228,7 +228,7 @@ p{
         border-radius: 90px;
     }
     #header{
-        
+         background-position: center;
         background-attachment: fixed;
     }
     .container{
